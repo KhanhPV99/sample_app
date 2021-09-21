@@ -5,7 +5,23 @@
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to t("pages.nav.home"), home_path %></li>
         <li><%= link_to t("pages.nav.help"), help_path %></li>
-        <li><%= link_to t("pages.nav.log_in"), "#" %></li>
+        <% if logged_in? %>
+          <li><%= link_to t("pages.nav.user"), "#" %></li>
+          <li class="dropdown">
+            <%= link_to "#", class: "dropdown-toggle", "data-toggle": "dropdown" do %>
+              <%= t("pages.nav.account") %>
+              <b class="caret"></b>
+            <% end %>
+            <ul class="dropdown-menu">
+              <li><%= link_to t("pages.nav.profile"), current_user %></li>
+              <li><%= link_to t("pages.nav.setting"), "#" %></li>
+              <li class="divider"></li>
+              <li> <%= link_to t("pages.nav.log_out"), logout_path, method: :delete %></li>
+            </ul>
+          </li>
+        <% else %>
+          <li><%= link_to t("pages.nav.log_in"), login_path %></li>
+        <% end %>
         <li><%= link_to t("pages.nav.eng"), locale: :en %></li>
         <li><%= link_to t("pages.nav.vie"), locale: :vi %></li>
       </ul>
