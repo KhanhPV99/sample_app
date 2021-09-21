@@ -8,6 +8,8 @@
       <%= f.email_field :email, class: "form-control" %>
 
       <%= f.label :password, t("pages.signup.password") %>
+      <%= link_to t("pages.reset_password.forgot_password_form_login"),
+        password_resets_new_path %>
       <%= f.password_field :password, class: "form-control" %>
 
       <%= f.label :remember_me, class: "checkbox inline" do %>

@@ -1,5 +1,6 @@
 validations:
   length:
+    digit_2: 2
     digit_5: 5
     digit_6: 6
     digit_20: 20
