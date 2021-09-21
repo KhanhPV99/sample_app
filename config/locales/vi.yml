@@ -1,0 +1,15 @@
+vi:
+  pages:
+    home:
+      base_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+      welcome: "Chào mừng bạn đến với ứng dụng mẫu"
+      body_html: <h2>Đây là trang chủ của ứng dụng mẫu <a href="http://www.railstutorial.org/">Hướng dẫn Ruby on Rails</a>.</h2>
+      sign_up: "Đăng ký ngay!"
+    help:
+      body_help_html: <p>Nhận trợ giúp về Hướng dẫn Ruby on Rails tại <a href="http://www.railstutorial.org/help">Trợ giúp Hướng dẫn về Rails</a>. Để nhận trợ giúp về ứng dụng mẫu này, hãy xem <a href="http://www.railstutorial.org/book">sách <em>Hướng dẫn về Ruby on Rails</em></a>.</p>
+    nav:
+      home: "Trang Chủ"
+      help: "Trợ giúp"
+      log_in: "Đăng Nhập"
+      vie: "Tiếng Việt"
+      eng: "Tiếng Anh"
