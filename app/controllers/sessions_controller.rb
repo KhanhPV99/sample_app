@@ -4,7 +4,7 @@ class SessionsController < ApplicationController
   def new; end
 
   def create
-    check_logic @user
+    check_authenticate @user
   end
 
   def destroy
@@ -22,11 +22,11 @@ class SessionsController < ApplicationController
     render :new
   end
 
-  def check_logic user
+  def check_authenticate user
     if user.try(:authenticate, params[:session][:password])
       log_in user
       params[:session][:remember_me] == "1" ? remember(user) : forget(user)
-      redirect_to user
+      redirect_back_or user
     else
       flash.now[:danger] = t("pages.log_in.invalid_email_or_password")
       render :new

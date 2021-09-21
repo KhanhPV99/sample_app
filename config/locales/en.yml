@@ -45,3 +45,22 @@ en:
       log_in_unsuccess: "Log in unsuccess"
     remember_me:
       remember_me: "Remember me"
+    edit_user:
+      edit: "Edit user"
+      update_your_profile: "Update your profile"
+      change: "change"
+      save_changes: "Save changes"
+      message_update_success: "Profile updated"
+      please_log_in: "Please log in."
+      all_users: "All users"
+      delete: "Delete"
+      you_sure: "You sure?"
+      delete_fail: "Delete fail!"
+      delete_success: "User deleted!"
+  views:
+    pagination:
+      first: "« FIRST"
+      last: "LAST »"
+      previous: "‹ PREV"
+      next: "NEXT ›"
+      truncate: "…"
