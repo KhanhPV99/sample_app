@@ -1,0 +1,6 @@
+validations:
+  length:
+    digit_5: 5
+    digit_6: 6
+    digit_50: 50
+    digit_255: 255
