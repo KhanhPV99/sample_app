@@ -21,3 +21,15 @@ vi:
       sign_up: "Đăng ký ngay!"
     help:
       body_help_html: <p>Nhận trợ giúp về Hướng dẫn Ruby on Rails tại <a href="http://www.railstutorial.org/help">Trợ giúp Hướng dẫn về Rails</a>. Để nhận trợ giúp về ứng dụng mẫu này, hãy xem <a href="http://www.railstutorial.org/book">sách <em>Hướng dẫn về Ruby on Rails</em></a>.</p>
+    signup:
+      title: "Đăng ký"
+      message_success: "Đăng ký thành công! Chào mừng bạn đến với ứng dụng mẫu"
+      message_fail: "Đăng ký không thành công!"
+      message_nil: "Tài khoản không tồn tại!"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+      create_my_account: "Tạo tài khoản của tôi"
+      error_the_form_contains: "Biểu mẫu có"
+      error: "lỗi"

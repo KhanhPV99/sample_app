@@ -1,5 +1,6 @@
 class User < ApplicationRecord
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i.freeze
+  SIGNUP_ATTRS = %i(name email password password_confirmation).freeze
 
   validates :name, presence: true,
     length: {
