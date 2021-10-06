@@ -43,3 +43,5 @@ en:
       new_user: "You are a new user?"
       invalid_email_or_password: "Invalid email or password"
       log_in_unsuccess: "Log in unsuccess"
+    remember_me:
+      remember_me: "Remember me"

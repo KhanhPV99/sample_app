@@ -43,3 +43,5 @@ vi:
       new_user: "Bạn là người dùng mới?"
       invalid_email_or_password: "Email hoặc mật khẩu không hợp lệ"
       log_in_unsuccess: "Đăng nhập không thành công"
+    remember_me:
+      remember_me: "Ghi nhớ tôi"
