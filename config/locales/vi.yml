@@ -44,4 +44,23 @@ vi:
       invalid_email_or_password: "Email hoặc mật khẩu không hợp lệ"
       log_in_unsuccess: "Đăng nhập không thành công"
     remember_me:
-      remember_me: "Ghi nhớ tôi"
+      remember_me: "Ghi nhớ đăng nhập"
+    edit_user:
+      edit: "Chỉnh sửa người dùng"
+      update_your_profile: "Cập nhật hồ sơ của bạn"
+      change: "thay đổi"
+      save_changes: "Lưu thay đổi"
+      message_update_success: "Hồ sơ đã cập nhật"
+      please_log_in: "Vui lòng đăng nhập."
+      all_users: "Tất cả người dùng"
+      delete: "Xóa"
+      you_sure: "Bạn chắc chắn muốn xóa người dùng này?"
+      delete_fail: "Xóa không thành công!"
+      delete_success: "Người dùng đã bị xóa thành công!"
+  views:
+    pagination:
+      first: "« Đầu tiên"
+      last: "Cuối cùng »"
+      previous: "‹ Trước"
+      next: "Tiếp ›"
+      truncate: "…"

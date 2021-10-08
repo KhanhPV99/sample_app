@@ -1,0 +1,8 @@
+<li>
+  <%= gravatar_for user %>
+  <%= link_to user.name, user %>
+  <% if check_routes_admin? user %>
+    | <%= link_to t("pages.edit_user.delete"), user, method: :delete,
+      data: {confirm: t("pages.edit_user.you_sure")} %>
+  <% end %>
+</li>
