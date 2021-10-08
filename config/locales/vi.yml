@@ -44,4 +44,32 @@ vi:
       invalid_email_or_password: "Email hoặc mật khẩu không hợp lệ"
       log_in_unsuccess: "Đăng nhập không thành công"
     remember_me:
-      remember_me: "Ghi nhớ tôi"
+      remember_me: "Ghi nhớ đăng nhập"
+    edit_user:
+      edit: "Chỉnh sửa người dùng"
+      update_your_profile: "Cập nhật hồ sơ của bạn"
+      change: "thay đổi"
+      save_changes: "Lưu thay đổi"
+      message_update_success: "Hồ sơ đã cập nhật"
+      please_log_in: "Vui lòng đăng nhập."
+      all_users: "Tất cả người dùng"
+      delete: "Xóa"
+      you_sure: "Bạn chắc chắn muốn xóa người dùng này?"
+      delete_fail: "Xóa không thành công!"
+      delete_success: "Người dùng đã bị xóa thành công!"
+    send_mail:
+      message_account_activated: "Tài khoản đã được kích hoạt"
+      message_invalid_activation_link: "Liên kết kích hoạt không hợp lệ"
+      message_not_activated: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt."
+      message_check_email: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn!"
+      text_hi: "Xin chào"
+      mail_welcome: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản:"
+      activate: "Kích hoạt"
+      account_activation: "Kích hoạt tài khoản"
+  views:
+    pagination:
+      first: "« ĐẦU TIÊN"
+      last: "CUỐI CÙNG »"
+      previous: "‹ TRƯỚC"
+      next: "TIẾP ›"
+      truncate: "…"

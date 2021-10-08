@@ -1,0 +1,16 @@
+<% provide(:title, t("pages.edit_user.edit")) %>
+<% provide(:button_text, t("pages.edit_user.save_changes")) %>
+<h1><%= t("pages.edit_user.update_your_profile") %></h1>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= render "layouts/form" %>
+
+    <div class="gravatar_edit">
+      <%= gravatar_for @user %>
+      <a href="http://gravatar.com/emails" target="_blank">
+        <%= t("pages.edit_user.change") %>
+      </a>
+    </div>
+  </div>
+</div>
