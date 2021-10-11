@@ -57,6 +57,15 @@ en:
       you_sure: "You sure?"
       delete_fail: "Delete fail!"
       delete_success: "User deleted!"
+    send_mail:
+      message_account_activated: "Account activated"
+      message_invalid_activation_link: "Invalid_activation_link"
+      message_not_activated: "Account not activated. Check your email for the activation link."
+      message_check_email: "Please check your email to activate your account!"
+      text_hi: "Hi"
+      mail_welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+      account_activation: "Account activation"
   views:
     pagination:
       first: "« FIRST"

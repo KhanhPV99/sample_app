@@ -1,0 +1,6 @@
+<%= t("pages.send_mail.text_hi") %> <%= @user.name %>,
+
+<%= t("pages.send_mail.mail_welcome") %></p>
+
+<%= edit_account_activation_url(id: @user.activation_token, email:
+@user.email) %>

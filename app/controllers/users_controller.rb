@@ -14,12 +14,11 @@ class UsersController < ApplicationController
   end
 
   def create
-    @user = User.new(user_params)
+    @user = User.new user_params
     if @user.save
-      log_in @user
-      remember @user
-      flash[:success] = t("pages.signup.message_success")
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t "pages.send_mail.message_check_email"
+      redirect_to root_url
     else
       flash.now[:danger] = t("pages.signup.message_fail")
       render :new

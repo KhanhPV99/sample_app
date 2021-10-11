@@ -57,10 +57,19 @@ vi:
       you_sure: "Bạn chắc chắn muốn xóa người dùng này?"
       delete_fail: "Xóa không thành công!"
       delete_success: "Người dùng đã bị xóa thành công!"
+    send_mail:
+      message_account_activated: "Tài khoản đã được kích hoạt"
+      message_invalid_activation_link: "Liên kết kích hoạt không hợp lệ"
+      message_not_activated: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt."
+      message_check_email: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn!"
+      text_hi: "Xin chào"
+      mail_welcome: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản:"
+      activate: "Kích hoạt"
+      account_activation: "Kích hoạt tài khoản"
   views:
     pagination:
-      first: "« Đầu tiên"
-      last: "Cuối cùng »"
-      previous: "‹ Trước"
-      next: "Tiếp ›"
+      first: "« ĐẦU TIÊN"
+      last: "CUỐI CÙNG »"
+      previous: "‹ TRƯỚC"
+      next: "TIẾP ›"
       truncate: "…"
